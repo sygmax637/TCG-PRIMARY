@@ -104,11 +104,25 @@
               "section": "Ligne càc",
               "style": false
             },
-
-             {
-              "section": "Ligne dist",
-              "style": false
-            },
+            {
+                            "direction": "row",
+                            "style": false,
+                            "content": [
+                                {
+                                    "section": "Dist"
+                                },
+                                {
+                                    "section": "Ligne dist",
+                                    "style": {
+                                        "width": "45%"
+                                    }
+                                },
+                                
+                            "isSymetricalForOpponents": false
+                        }
+                    ]
+                },
+             
                      
             {
                "direction": "row",
