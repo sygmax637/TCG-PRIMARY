@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://sygmax637.github.io/TCG-PRIMARY/Illu%20Tapis%20IA.jpg"
     ],
-    "decksUrl": ""
+    "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
   "customHelp": "",
   "cardRotation": 45,
@@ -37,8 +37,8 @@
         "drawNewSelectedCards": true
       },
       "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
+        "drawOnStart": true,
+        "sharedTurn": true,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
@@ -47,29 +47,41 @@
         {
           "name": "Graine éphémère",
           "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg",
-          "isUnique": false,
+          "isUnique": true,
           "leavesAtEndOfTurn": false
         }
       ],
       "countersStartingValues": [
-        "2"
+        "0"
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Graine",
+          "Mana",
           "Ligne dist",
           "Ligne càc",
-          ""
+          "Mage"
+          
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": false,
+          "isSymetricalForOpponents": true,
           "content": [
             {
-              "section": "Graine",
-              "style": false
+               "direction": "row",
+                          "isSymetricalForOpponents": true,
+                          "content": [
+            {
+                                  "section": "Mana",
+                                  "style": false
             },
+             {
+                                  "section": "Mage",
+                                  "style": false
+             }
+                            }
+          ]
+        },
             {
               "section": "Ligne dist",
               "style": false
@@ -81,8 +93,6 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Deck Ligne dist",
-          "Deck Ligne càc",
           "Mage"
         ],
         "autoPlayFromHand": {
@@ -94,6 +104,14 @@
           "Sort": "Discard"
         },
         "sectionsDict": {
+            "Hero": {
+                      "title": "Mage",
+                      "isHidden": "no",
+                      "height": "18",
+                      "alignment": "CENTER",
+                      "isHorizontalAllowed": true,
+                      "noQuickActions": true
+                  },
           "Ligne dist": {
             "title": "Ligne dist",
             "isHidden": "no",
