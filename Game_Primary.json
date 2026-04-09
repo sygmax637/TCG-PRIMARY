@@ -7,6 +7,23 @@
     ],
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
+"beforeGameStart": {
+  "initialBoardSetup": {
+    [
+      {
+        "createCardId": "cardId",
+        "count": X,
+        "destination": "sectionId"
+      },
+      {
+        "drawFromTop": "DeckId" (But only "Deck" for now),
+        "count": X,
+        "destination": "sectionId"
+      }
+    ]
+  }
+}
+  
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
@@ -40,14 +57,7 @@
         
       },
       "defaultNotes": "",
-      "tokens": [
-        {
-          "name": "Graine éphémère",
-          "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg",
-          "isUnique": true,
-          "leavesAtEndOfTurn": false
-        }
-      ],
+    
       "countersStartingValues": [
         "0"
       ],
@@ -110,7 +120,7 @@
           "Sort": "Discard"
         },
         "sectionsDict": {
-            "Hero": {
+            "Mage": {
                       "title": "Mage",
                       "isHidden": "no",
                       "height": "18",
