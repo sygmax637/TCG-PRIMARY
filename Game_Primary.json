@@ -55,14 +55,15 @@
       "defaultNotes": "",
     
       "countersStartingValues": [
-        "0"
+        20,
+        0
       ],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Mana",
-          "Ligne dist",
           "Ligne càc",
+          "Ligne dist",
+          "Mana",      
           "Mage"
           
         ],
@@ -101,7 +102,9 @@
         },
         
         "categoriesAlreadyOnBoard": [
-          "Mage"
+          "Mage",
+          "Créatures càc",
+          "Créatures dist"
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
