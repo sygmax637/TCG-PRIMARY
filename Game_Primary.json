@@ -19,7 +19,7 @@
   
 }
   
-  "customHelp": "",
+  "customHelp": "test",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://sygmax637.github.io/TCG-PRIMARY/CardListPrimarySet1.json",
