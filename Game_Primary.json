@@ -119,7 +119,7 @@
             "Mage": {
                       "title": "Mage",
                       "isHidden": "no",
-                      "height": "18",
+                      "height": "9",
                       "alignment": "CENTER",
                       "isHorizontalAllowed": true,
                       "noQuickActions": true
@@ -127,7 +127,7 @@
           "Ligne dist": {
             "title": "Ligne dist",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -143,7 +143,7 @@
           "Ligne càc": {
             "title": "Ligne càc",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
