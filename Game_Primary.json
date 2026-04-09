@@ -79,9 +79,15 @@
                                   "section": "Mage",
                                   "style": false
              }
-            }
+            
           ]
+          }
         },
+
+         {
+                          "direction": "column",
+                          "isSymetricalForOpponents": true,
+                          "content": [
             {
               "section": "Ligne dist",
               "style": false
@@ -90,7 +96,9 @@
               "section": "Ligne càc",
               "style": false
             }
+          
           ]
+         }
         },
         "categoriesAlreadyOnBoard": [
           "Mage"
