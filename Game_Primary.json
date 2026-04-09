@@ -7,17 +7,6 @@
     ],
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
-"beforeGameStart": {
-  "initialBoardSetup": 
-    [
-      {
-        "createCardId": "000",
-        "count": 1,
-        "destination": "Mana"
-      }      
-    ]
-  
-}
   
   "customHelp": "test",
   "cardRotation": 45,
@@ -51,6 +40,18 @@
         "sharedTurn": false
         
       },
+
+"beforeGameStart": {
+  "initialBoardSetup": 
+    [
+      {
+        "createCardId": "000",
+        "count": 1,
+        "destination": "Mana"
+      }      
+    ]
+  
+},      
       "defaultNotes": "",
     
       "countersStartingValues": [
