@@ -8,7 +8,7 @@
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
 "beforeGameStart": {
-  "initialBoardSetup": {
+  "initialBoardSetup": 
     [
       {
         "createCardId": "000",
@@ -16,7 +16,7 @@
         "destination": "Mana"
       }      
     ]
-  }
+  
 }
   
   "customHelp": "",
