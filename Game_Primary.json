@@ -32,15 +32,12 @@
       "mulligan": {
         "info": "Enlève autant de cartes que tu le souhaites, repioche des cartes jusqu'à en avoir 7 (tu pioches ou tu veux) puis remélanger les cartes enlevées dans leur deck respectif.",
         "startingHandSize": 7,
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
         "drawNewSelectedCards": true
       },
       "newTurn": {
-        "drawOnStart": true,
-        "sharedTurn": true,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "drawOnStart":false,
+        "sharedTurn": false
+        
       },
       "defaultNotes": "",
       "tokens": [
