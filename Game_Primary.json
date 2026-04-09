@@ -68,11 +68,11 @@
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": true,
+          "isSymetricalForOpponents": false,
           "content": [
             {
                "direction": "row",
-                          "isSymetricalForOpponents": true,
+                          "isSymetricalForOpponents": false,
                           "content": [
             {
                                   "section": "Mana",
@@ -89,7 +89,7 @@
 
          {
                           "direction": "column",
-                          "isSymetricalForOpponents": true,
+                          "isSymetricalForOpponents": false,
                           "content": [
             {
               "section": "Ligne dist",
