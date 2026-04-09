@@ -23,11 +23,40 @@
     "formats": [
       {
         "title": "Classic",
-        "gameplay": "Classic"
+        "gameplay": "Classic",
+        "deckRuleset": "Standard"
     
       }
     ]
   },
+
+ "deckRulesets": {
+            "Standard": {
+                    "général": {
+                    "min": 45,
+                    "max": 45,
+                    "maxPerCard": 3
+                },
+                "categories": [
+                    {
+                        "category": "Mage",
+                        "min": 1,
+                        "max": 1,
+                        "maxPerCard": 1
+                    },
+                    {
+                        "category": "Créature dist",
+                        "min": 30,
+                        "max": 30,
+                        "maxPerCard": 3
+                  
+                    }
+                    
+                ]
+            }
+        }
+  },
+  
   "gameplay": {
     "Classic": {
       "mulligan": {
@@ -103,8 +132,8 @@
         
         "categoriesAlreadyOnBoard": [
           "Mage",
-          "Créatures càc",
-          "Créatures dist"
+          "Créature càc",
+          "Créature dist"
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
