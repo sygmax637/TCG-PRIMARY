@@ -11,15 +11,10 @@
   "initialBoardSetup": {
     [
       {
-        "createCardId": "cardId",
-        "count": X,
-        "destination": "sectionId"
-      },
-      {
-        "drawFromTop": "DeckId" (But only "Deck" for now),
-        "count": X,
-        "destination": "sectionId"
-      }
+        "createCardId": "000",
+        "count": 1,
+        "destination": "Mana"
+      }      
     ]
   }
 }
