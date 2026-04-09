@@ -180,6 +180,7 @@
                         "isGroupForbidden": false,
                         "keepTappedNewTurn": false,
                         "showHiddenCardInHistory": false,
+          },
           
           "Ligne dist": {
             "title": "Ligne dist",
