@@ -70,6 +70,17 @@
           "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
+
+             {
+              "section": "Ligne càc",
+              "style": false
+            },
+
+             {
+              "section": "Ligne dist",
+              "style": false
+            },
+                     
             {
                "direction": "row",
                           "isSymetricalForOpponents": false,
@@ -87,21 +98,6 @@
           
         },
 
-         {
-                          "direction": "column",
-                          "isSymetricalForOpponents": false,
-                          "content": [
-            {
-              "section": "Ligne dist",
-              "style": false
-            },
-            {
-              "section": "Ligne càc",
-              "style": false
-            }
-          
-          ]
-         }
          ]
         },
         "categoriesAlreadyOnBoard": [
