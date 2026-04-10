@@ -23,7 +23,6 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-        "customCategories": ["Mage"],
         "deckRuleset": "Standard"
        }
     ]
