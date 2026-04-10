@@ -31,10 +31,9 @@
     ]
   },
 
- "deckRulesets": {
+ "deckRuleset": {
             "Standard": {
                     "général": {
-                    "min": 76,
                     "maxPerCard": 3
                 },
                 "categories": [
