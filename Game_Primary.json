@@ -33,7 +33,8 @@
 
  "deckRuleset": {
             "Standard": {
-                    "général": {
+                    "Créature càc": {
+                    "min": 76,
                     "maxPerCard": 3
                 },
                 "categories": [
