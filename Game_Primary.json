@@ -34,7 +34,6 @@
             "Standard": {
                     "général": {
                     "min": 45,
-                    "max": 45,
                     "maxPerCard": 3
                 },
                 "categories": [
@@ -47,7 +46,6 @@
                     {
                         "category": "Créature dist",
                         "min": 30,
-                        "max": 30,
                         "maxPerCard": 3
                   
                     }
