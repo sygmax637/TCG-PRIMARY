@@ -31,7 +31,7 @@
     ]
   },
 
- "deckRuleset": {
+ "deckRulesets": {
             "Standard": {
                     "general": {
                     "min": 76,
