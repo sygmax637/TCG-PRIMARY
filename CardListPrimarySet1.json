@@ -3406,21 +3406,5 @@
     "name": "Lanceur de Flammes",
     "type": "Créature dist",
     "cost": "3"
-  },
-  "000": {
-    "id": "000",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Graine éphémère",
-        "type": false,
-        "cost": 0,
-        "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Graine éphémère",
-    "type": false,
-    "cost": 0
   }
 }
