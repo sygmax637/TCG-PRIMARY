@@ -26,7 +26,6 @@
         "deckRuleset": "Standard"
        }
     ]
-  },
  "deckRulesets": {
             "Standard": {
                     "general": {
@@ -52,6 +51,7 @@
                     }
                 ]
             }
+  }
   },
     "gameplay": {
     "Classic": {
