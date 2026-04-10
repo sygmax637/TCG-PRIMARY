@@ -7,7 +7,6 @@
     ],
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
-  
   "customHelp": "test",
   "cardRotation": 45,
   "cards": {
@@ -26,11 +25,9 @@
         "gameplay": "Classic",
         "customCategories": ["Mage"],
         "deckRuleset": "Standard"
-    
-      }
+       }
     ]
   },
-
  "deckRulesets": {
             "Standard": {
                     "general": {
@@ -45,7 +42,6 @@
                     {
                         "category": "Créature dist",
                         "maxPerCard": 3
-                  
                     },
                     {
                         "category": "Sort",
@@ -54,13 +50,11 @@
                     {
                         "category": "Créature càc",
                         "maxPerCard": 3
-                  
                     }
                 ]
             }
   },
-  
-  "gameplay": {
+    "gameplay": {
     "Classic": {
       "mulligan": {
         "info": "Enlève autant de cartes que tu le souhaites, repioche des cartes jusqu'à en avoir 7 (tu pioches ou tu veux) puis remélanger les cartes enlevées dans leur deck respectif.",
@@ -70,9 +64,7 @@
       "newTurn": {
         "drawOnStart":false,
         "sharedTurn": false
-        
-      },
-
+              },
 "beforeGameStart": {
   "initialBoardSetup": 
     [
@@ -82,10 +74,8 @@
         "destination": "Mana"
       }      
     ]
-  
-},      
+  },      
       "defaultNotes": "",
-    
       "countersStartingValues": [
         20,
         0
@@ -98,13 +88,11 @@
           "Mana",      
           "Mage",
           "Dist"
-          
-        ],
+          ],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
-
              {
               "section": "Ligne càc",
               "style": false
@@ -123,12 +111,9 @@
                                     }
                                 }
                             ],
-                            "isSymetricalForOpponents": false
-                        
-                },
-             
-                     
-            {
+                            "isSymetricalForOpponents": false                    
+                },           
+             {
                "direction": "row",
                           "isSymetricalForOpponents": false,
                           "content": [
@@ -140,17 +125,13 @@
                                   "section": "Mage",
                                   "style": false
              }
-            
-          ]
+             ]
         }
-
          ]
-        },
-        
+        },       
         "categoriesAlreadyOnBoard": [
           "Mage",
           "Dist"
-          
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
@@ -184,8 +165,7 @@
                         "isGroupForbidden": false,
                         "keepTappedNewTurn": false,
                         "showHiddenCardInHistory": false
-          },
-          
+          },          
           "Ligne dist": {
             "title": "Ligne dist",
             "isHidden": "no",
