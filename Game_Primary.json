@@ -150,7 +150,7 @@
                       "noQuickActions": true
                   },
           "Dist" : {
-           "title": "Dist",
+                        "title": "Dist",
                         "isHidden": "yes",
                         "height": "SMALL",
                         "alignment": "DECK",
