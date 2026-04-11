@@ -64,25 +64,29 @@
         "drawOnStart": false,
         "sharedTurn": false
       },
-      "beforeGameStart": {
-        "initialBoardSetup": [
-                  {
-            "action": "moveAllCustom",
-            "source": "Deck",
-            "destination": "Hand",
-            "filter": {
-              "id": "084"
-            },
-            "faceDown": true,
-            "shuffle": true
-          },
-          {
-            "createCardId": "000",
-            "count": 1,
-            "destination": "Mana"
-          }
-        ]
-      },
+     "beforeGameStart": {
+  "initialBoardSetup": [
+    {
+      "action": "moveCard",
+      "source": "deck",
+      "destination": "Mage",
+      "filter": { "category": "Mage" }
+    },
+    {
+      "action": "moveCard",
+      "source": "deck",
+      "destination": "Dist",
+      "filter": { "type": "Créature dist" },
+      "faceDown": true,
+      "shuffle": true
+    },
+    {
+      "createCardId": "000",
+      "count": 1,
+      "destination": "Mana"
+    }
+  ]
+},
       "defaultNotes": "",
       "countersStartingValues": [
         20,
