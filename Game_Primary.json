@@ -68,7 +68,7 @@
   "initialBoardSetup": [
         {
       "action": "moveCard",
-      "source": ""p1.deck"",
+      "source": "p1.deck",
       "destination": "Dist",
       "filter": { "type": "Créature dist" },
       "faceDown": true,
