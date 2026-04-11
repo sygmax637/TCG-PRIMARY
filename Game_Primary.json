@@ -68,7 +68,7 @@
         "initialBoardSetup": [
                   {
             "action": "moveAllCustom",
-            "source": "deck",
+            "source": "Deck",
             "destination": "Hand",
             "filter": {
               "id": "084"
