@@ -78,7 +78,7 @@
       "destination": "Dist",
       "filter": {
         "category": "Créature dist"
-      }
+      },
       "shuffle": true
     }
   ]
