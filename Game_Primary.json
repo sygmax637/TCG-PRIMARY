@@ -79,8 +79,9 @@
       "filter": {
         "category": "Créature dist"
       }
-    ]
-  },      
+    }
+  ]
+},
       "defaultNotes": "",
       "countersStartingValues": [
         20,
