@@ -71,7 +71,7 @@
         "createCardId": "000",
         "count": 1,
         "destination": "Mana"
-      } 
+      }, 
       {
       "action": "moveAllCustom",
       "source": "Deck",
