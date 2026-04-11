@@ -14,11 +14,7 @@
     "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg"
   },
   "deckBuilding": {
-    "mainFilters": [
-      "Type",
-      "Name",
-      "Cost"
-    ],
+    "mainFilters": ["Type", "Name", "Cost"],
     "formats": [
       {
         "title": "Classic",
@@ -29,27 +25,16 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 46,
+          "min": 76,
           "maxPerCard": 3,
-          "sideMin": 30
+          "sideMin": 0,
+          "sideMax": 100
         },
         "categories": [
-          {
-            "category": "Mage",
-            "maxPerCard": 1
-          },
-          {
-            "category": "Créature dist",
-            "maxPerCard": 3
-          },
-          {
-            "category": "Sort",
-            "maxPerCard": 1
-          },
-          {
-            "category": "Créature càc",
-            "maxPerCard": 3
-          }
+          { "category": "Mage", "maxPerCard": 1 },
+          { "category": "Créature dist", "maxPerCard": 3 },
+          { "category": "Sort", "maxPerCard": 1 },
+          { "category": "Créature càc", "maxPerCard": 3 }
         ]
       }
     }
@@ -65,82 +50,58 @@
         "drawOnStart": false,
         "sharedTurn": false
       },
-     "beforeGameStart": {
-  "initialBoardSetup": [
-        {
-  "action": "moveAll",
-  "source": "side",
-  "destination": "Dist",
-  "faceDown": true,
-  "shuffle": true
-},
-    {
-      "createCardId": "000",
-      "count": 1,
-      "destination": "Mana"
-    }
-  ]
-},
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "action": "moveAll",
+            "source": "side",
+            "destination": "Dist",
+            "faceDown": true,
+            "shuffle": true
+          },
+          {
+            "action": "moveAllCustom",
+            "source": "deck",
+            "destination": "Mage",
+            "filter": { "category": "Mage" }
+          },
+          {
+            "createCardId": "000",
+            "count": 1,
+            "destination": "Mana"
+          }
+        ]
+      },
       "defaultNotes": "",
-      "countersStartingValues": [
-        20,
-        0
-      ],
+      "countersStartingValues": [20, 0],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [
-          "Ligne càc",
-          "Ligne dist",
-          "Mana",
-          "Mage",
-          "Dist"
-        ],
+        "customSections": ["Ligne càc", "Ligne dist", "Mana", "Mage", "Dist"],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
-            {
-              "section": "Ligne càc",
-              "style": false
-            },
+            { "section": "Ligne càc", "style": false },
             {
               "direction": "row",
               "style": false,
               "isSymetricalForOpponents": false,
               "content": [
-                {
-                  "section": "Dist",
-                  "style": {
-                    "width": "25%"
-                  }
-                },
-                {
-                  "section": "Ligne dist",
-                  "style": {
-                    "width": "70%"
-                  }
-                }
+                { "section": "Dist", "style": { "width": "25%" } },
+                { "section": "Ligne dist", "style": { "width": "70%" } }
               ]
             },
             {
               "direction": "row",
               "isSymetricalForOpponents": false,
               "content": [
-                {
-                  "section": "Mana",
-                  "style": false
-                },
-                {
-                  "section": "Mage",
-                  "style": false
-                }
+                { "section": "Mana", "style": false },
+                { "section": "Mage", "style": false }
               ]
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Mage"
-        ],
+        "categoriesAlreadyOnBoard": ["Mage"],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
           "Créature dist": "Ligne dist",
