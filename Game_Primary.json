@@ -69,7 +69,7 @@
                   {
             "action": "moveAllCustom",
             "source": "deck",
-            "destination": "Dist",
+            "destination": "Hand",
             "filter": {
               "id": "84"
             },
