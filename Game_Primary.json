@@ -25,11 +25,10 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 76,
+          "min": 46,
           "maxPerCard": 3,
-          "sideMin": 0,
-          "sideMax": 100
-        },
+          "sideMin": 30
+          },
         "categories": [
           { "category": "Mage", "maxPerCard": 1 },
           { "category": "Créature dist", "maxPerCard": 3 },
