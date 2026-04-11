@@ -159,7 +159,7 @@
                   },
           "Dist" : {
                         "title": "Dist",
-                        "isHidden": "yes",
+                        "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "DECK",
                         "opponentAlignment": false,
@@ -171,7 +171,7 @@
                         "enterSpun": false,
                         "isGroupForbidden": false,
                         "keepTappedNewTurn": false,
-                        "showHiddenCardInHistory": false
+                        "showHiddenCardInHistory": true
           },          
           "Ligne dist": {
             "title": "Ligne dist",
