@@ -71,7 +71,7 @@
             "source": "deck",
             "destination": "Hand",
             "filter": {
-              "id": "84"
+              "id": "084"
             },
             "faceDown": true,
             "shuffle": true
