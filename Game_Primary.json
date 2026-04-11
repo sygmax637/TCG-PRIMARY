@@ -66,17 +66,9 @@
       },
       "beforeGameStart": {
         "initialBoardSetup": [
-          {
+                  {
             "action": "moveAllCustom",
-            "source": "Deck",
-            "destination": "Mage",
-            "filter": {
-              "category": "Mage"
-            }
-          },
-          {
-            "action": "moveAllCustom",
-            "source": "Deck",
+            "source": "deck",
             "destination": "Dist",
             "filter": {
               "name": "Sorcier abandonné"
