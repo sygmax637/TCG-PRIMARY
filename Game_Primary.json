@@ -77,7 +77,7 @@
       "source": "Deck",
       "destination": "Dist",
       "filter": {
-        "category": "Créature dist"
+        "type": "Créature dist"
       }
     }
   ]
