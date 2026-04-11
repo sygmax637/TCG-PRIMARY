@@ -53,173 +53,148 @@
             }
   }
   },
-    "gameplay": {
-    "Classic": {
-      "mulligan": {
-        "info": "Enlève autant de cartes que tu le souhaites, repioche des cartes jusqu'à en avoir 7 (tu pioches ou tu veux) puis remélanger les cartes enlevées dans leur deck respectif.",
-        "startingHandSize": 7,
-        "drawNewSelectedCards": true
-      },
-      "newTurn": {
-        "drawOnStart":false,
-        "sharedTurn": false
-              },
-"beforeGameStart": {
-  "initialBoardSetup": 
-    [
-      {
-        "createCardId": "000",
-        "count": 1,
-        "destination": "Mana"
-      }, 
-      {
-      "action": "moveAllCustom",
-      "source": "Deck",
-      "destination": "Dist",
-      "filter": {
-        "category": "Créature dist"
-      },
-      "faceDown": true,
-      "shuffle": true
-            }
-  ]
-},
-      "defaultNotes": "",
-      "countersStartingValues": [
-        20,
-        0
-      ],
-      "hideFacedDownCards": false,
-      "sections": {
-        "customSections": [
-          "Ligne càc",
-          "Ligne dist",
-          "Mana",      
-          "Mage",
-          "Dist"
-          ],
-        "layout": {
-          "direction": "column",
-          "isSymetricalForOpponents": false,
-          "content": [
-             {
-              "section": "Ligne càc",
-              "style": false
-            },
-            {
-                            "direction": "row",
-                            "style": false,
-                            "content": [
-                                {
-                                    "section": "Dist",
-                                  "style": { "width": "20%" }
-                                },
-                                {
-                                    "section": "Ligne dist",
-                                    "style": {
-                                        "width": "75%"
-                                    }
-                                }
-                            ],
-                            "isSymetricalForOpponents": false                    
-                },           
-             {
-               "direction": "row",
-                          "isSymetricalForOpponents": false,
-                          "content": [
-            {
-                                  "section": "Mana",
-                                  "style": false
-            },
-             {
-                                  "section": "Mage",
-                                  "style": false
-             }
-             ]
-        }
-         ]
-        },       
-        "categoriesAlreadyOnBoard": [
-          "Mage"        
-        ],
-        "autoPlayFromHand": {
-          "Créature càc": "Ligne càc",
-          "Créature dist": "Ligne dist",
-          "Sort": "Ligne càc"
-        },
-        "autoPlayFromStack": {
-          "Sort": "Discard"
-        },
-        "sectionsDict": {
-            "Mage": {
-                      "title": "Mage",
-                      "isHidden": "no",
-                      "height": "9",
-                      "alignment": "CENTER",
-                      "isHorizontalAllowed": true,
-                      "noQuickActions": true
-                  },
-          "Dist" : {
-                        "title": "Dist",
-                        "isHidden": "no",
-                        "height": "SMALL",
-                        "alignment": "DECK",
-                        "opponentAlignment": false,
-                        "noAutoPayTo": true,
-                        "isHorizontalAllowed": false,
-                        "displayedTitle": "Deck dist",
-                        "noQuickActions": false,
-                        "isGroupForbidden": false,
-                        "isDeck": true
-          },          
-          "Ligne dist": {
-            "title": "Ligne dist",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ligne dist",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": true
-          },
-          "Ligne càc": {
-            "title": "Ligne càc",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Ligne càc",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": true
-          },
-          "Mana": {
-            "title": "Mana",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Graines",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+   "gameplay": {
+  "Classic": {
+    "mulligan": {
+      "info": "Enlève autant de cartes que tu le souhaites, repioche des cartes jusqu'à en avoir 7 (tu pioches ou tu veux) puis remélanger les cartes enlevées dans leur deck respectif.",
+      "startingHandSize": 7,
+      "drawNewSelectedCards": true
+    },
+    "newTurn": {
+      "drawOnStart": false,
+      "sharedTurn": false
+    },
+    "beforeGameStart": {
+      "initialBoardSetup": [
+        {
+          "action": "moveAllCustom",
+          "source": "Deck",
+          "destination": "Mage",
+          "filter": {
+            "category": "Mage"
           }
+        },
+        {
+          "action": "moveAllCustom",
+          "source": "Deck",
+          "destination": "Dist",
+          "filter": {
+            "category": "Créature dist"
+          },
+          "faceDown": true,
+          "shuffle": true
+        },
+        {
+          "createCardId": "000",
+          "count": 1,
+          "destination": "Mana"
+        }
+      ]
+    },
+    "defaultNotes": "",
+    "countersStartingValues": [20, 0],
+    "hideFacedDownCards": false,
+    "sections": {
+      "customSections": [
+        "Ligne càc",
+        "Ligne dist",
+        "Mana",
+        "Mage",
+        "Dist"
+      ],
+      "layout": {
+        "direction": "column",
+        "isSymetricalForOpponents": false,
+        "content": [
+          {
+            "section": "Ligne càc",
+            "style": false
+          },
+          {
+            "direction": "row",
+            "style": false,
+            "isSymetricalForOpponents": false,
+            "content": [
+              {
+                "section": "Dist",
+                "style": { "width": "25%" }
+              },
+              {
+                "section": "Ligne dist",
+                "style": { "width": "70%" }
+              }
+            ]
+          },
+          {
+            "direction": "row",
+            "isSymetricalForOpponents": false,
+            "content": [
+              {
+                "section": "Mana",
+                "style": false
+              },
+              {
+                "section": "Mage",
+                "style": false
+              }
+            ]
+          }
+        ]
+      },
+      "categoriesAlreadyOnBoard": ["Mage"],
+      "autoPlayFromHand": {
+        "Créature càc": "Ligne càc",
+        "Créature dist": "Ligne dist",
+        "Sort": "Ligne càc"
+      },
+      "autoPlayFromStack": {
+        "Sort": "Discard"
+      },
+      "sectionsDict": {
+        "Mage": {
+          "title": "Mage",
+          "isHidden": "no",
+          "height": "9",
+          "alignment": "CENTER",
+          "isHorizontalAllowed": true,
+          "noQuickActions": true
+        },
+        "Dist": {
+          "title": "Dist",
+          "isHidden": "no",
+          "height": "SMALL",
+          "alignment": "DECK",
+          "opponentAlignment": false,
+          "noAutoPayTo": true,
+          "isHorizontalAllowed": false,
+          "displayedTitle": "Deck dist",
+          "noQuickActions": false,
+          "isGroupForbidden": false,
+          "isDeck": true
+        },
+        "Ligne dist": {
+          "title": "Ligne dist",
+          "isHidden": "no",
+          "height": "SMALL",
+          "alignment": "CENTER",
+          "displayedTitle": "Ligne dist",
+          "showHiddenCardInHistory": true
+        },
+        "Ligne càc": {
+          "title": "Ligne càc",
+          "isHidden": "no",
+          "height": "SMALL",
+          "alignment": "CENTER",
+          "displayedTitle": "Ligne càc",
+          "showHiddenCardInHistory": true
+        },
+        "Mana": {
+          "title": "Mana",
+          "isHidden": "yes",
+          "height": "SMALL",
+          "alignment": "START",
+          "noAutoPayTo": true,
+          "displayedTitle": "Graines"
         }
       }
     }
