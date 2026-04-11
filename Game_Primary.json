@@ -53,7 +53,7 @@
         "initialBoardSetup": [
           {
             "action": "moveAll",
-            "source": "side",
+            "source": "sideboard",
             "destination": "Hand",
             "faceDown": true,
             "shuffle": true
