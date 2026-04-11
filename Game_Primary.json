@@ -29,7 +29,7 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 76,
+          "min": 46,
           "maxPerCard": 3,
           "sideMin": 30
         },
