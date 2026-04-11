@@ -79,6 +79,7 @@
       "filter": {
         "category": "Créature dist"
       }
+      "shuffle": true
     }
   ]
 },
