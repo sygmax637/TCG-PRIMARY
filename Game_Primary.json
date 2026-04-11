@@ -161,7 +161,7 @@
                   },
           "Dist" : {
                         "title": "Dist",
-                        "isHidden": "yes",
+                        "isHidden": "no",
                         "height": "SMALL",
                         "alignment": "DECK",
                         "opponentAlignment": false,
