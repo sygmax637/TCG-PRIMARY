@@ -54,15 +54,9 @@
           {
             "action": "moveAll",
             "source": "side",
-            "destination": "Dist",
+            "destination": "Hand",
             "faceDown": true,
             "shuffle": true
-          },
-          {
-            "action": "moveAllCustom",
-            "source": "deck",
-            "destination": "Mage",
-            "filter": { "category": "Mage" }
           },
           {
             "createCardId": "000",
