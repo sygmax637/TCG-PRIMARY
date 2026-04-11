@@ -111,11 +111,12 @@
                             "content": [
                                 {
                                     "section": "Dist"
+                                  "style": { "width": "20%" }
                                 },
                                 {
                                     "section": "Ligne dist",
                                     "style": {
-                                        "width": "45%"
+                                        "width": "75%"
                                     }
                                 }
                             ],
@@ -138,7 +139,7 @@
          ]
         },       
         "categoriesAlreadyOnBoard": [
-          "Mage"          
+          "Mage"        
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
@@ -159,7 +160,7 @@
                   },
           "Dist" : {
                         "title": "Dist",
-                        "isHidden": "no",
+                        "isHidden": "yes",
                         "height": "SMALL",
                         "alignment": "DECK",
                         "opponentAlignment": false,
@@ -167,11 +168,8 @@
                         "isHorizontalAllowed": false,
                         "displayedTitle": "Deck dist",
                         "noQuickActions": false,
-                        "enterTapped": false,
-                        "enterSpun": false,
                         "isGroupForbidden": false,
-                        "keepTappedNewTurn": false,
-                        "showHiddenCardInHistory": true
+                        "isDeck": true
           },          
           "Ligne dist": {
             "title": "Ligne dist",
