@@ -110,7 +110,7 @@
                             "style": false,
                             "content": [
                                 {
-                                    "section": "Dist"
+                                    "section": "Dist",
                                   "style": { "width": "20%" }
                                 },
                                 {
