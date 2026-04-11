@@ -68,10 +68,10 @@
         "initialBoardSetup": [
                   {
             "action": "moveAllCustom",
-            "source": "deck",
+            "source": "Deck",
             "destination": "Dist",
             "filter": {
-              "name": "Sorcier abandonné"
+              "id": "84"
             },
             "faceDown": true,
             "shuffle": true
