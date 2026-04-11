@@ -66,15 +66,9 @@
       },
      "beforeGameStart": {
   "initialBoardSetup": [
-    {
+        {
       "action": "moveCard",
-      "source": "deck",
-      "destination": "Mage",
-      "filter": { "category": "Mage" }
-    },
-    {
-      "action": "moveCard",
-      "source": "deck",
+      "source": ""p1.deck"",
       "destination": "Dist",
       "filter": { "type": "Créature dist" },
       "faceDown": true,
