@@ -25,13 +25,9 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 76
-        },
-        "categories": [
-          { "category": "Créature càc", "maxPerCard": 3 },
-          { "category": "Créature dist", "maxPerCard": 3 },
-          { "category": "Sort", "maxPerCard": 1 }
-        ]
+          "min": 46,
+          "maxPerCard": 3
+        }
       }
     },
   "gameplay": {
