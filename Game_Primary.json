@@ -141,7 +141,7 @@
                       "noQuickActions": true
                   },
           "Créature dist" : {
-                        "title": "Extra_deck",
+                        "title": "Créature dist",
                         "isHidden": "yes",
                         "height": "MEDIUM",
                         "alignment": "DECK",
