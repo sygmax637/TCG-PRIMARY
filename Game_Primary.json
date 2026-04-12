@@ -61,9 +61,7 @@
         "createCardId": "000",
         "count": 1,
         "destination": "Mana"
-      },
-      "faceDown": true,
-      "shuffle": true
+      }
     ]
 },
       "defaultNotes": "",
