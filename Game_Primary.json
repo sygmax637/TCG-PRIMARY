@@ -7,7 +7,7 @@
     ],
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
-  "customHelp": "test",
+  "customHelp": "Au début de la partie : répartissez vos sorts entre Deck CAC et Deck DIST, puis mélangez les deux decks. À chaque tour, choisissez un deck et piochez 1 carte.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://sygmax637.github.io/TCG-PRIMARY/CardListPrimarySet1.json",
@@ -26,22 +26,15 @@
       "Standard": {
         "general": {
           "min": 46,
-          "maxPerCard": 3,
-          "sideMin": 30
-          },
-        "categories": [
-          { "category": "Mage", "maxPerCard": 1 },
-          { "category": "Créature dist", "maxPerCard": 3 },
-          { "category": "Sort", "maxPerCard": 1 },
-          { "category": "Créature càc", "maxPerCard": 3 }
-        ]
+          "maxPerCard": 1
+        }
       }
     }
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Enlève autant de cartes que tu le souhaites, repioche des cartes jusqu'à en avoir 7 (tu pioches ou tu veux) puis remélanger les cartes enlevées dans leur deck respectif.",
+        "info": "Remplacez les cartes de votre choix puis repiochez jusqu'à 7.",
         "startingHandSize": 7,
         "drawNewSelectedCards": true
       },
@@ -52,44 +45,44 @@
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "action": "moveAll",
-            "source": "Extra",
-            "destination": "Hand",
-            "faceDown": true,
-            "shuffle": true
+            "action": "moveByCategory",
+            "category": "Créature càc",
+            "destination": "Deck CAC"
           },
           {
-            "createCardId": "000",
-            "count": 1,
-            "destination": "Mana"
+            "action": "moveByCategory",
+            "category": "Créature dist",
+            "destination": "Deck DIST"
+          },
+          {
+            "action": "moveByCategory",
+            "category": "Sort",
+            "destination": "Sorts"
           }
         ]
       },
-      "defaultNotes": "",
       "countersStartingValues": [20, 0],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Ligne càc", "Ligne dist", "Mana", "Mage", "Dist"],
+        "customSections": ["Ligne càc", "Ligne dist", "Mana", "Mage", "Deck CAC", "Deck DIST", "Sorts"],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": false,
           "content": [
-            { "section": "Ligne càc", "style": false },
+            { "section": "Ligne càc" },
             {
               "direction": "row",
-              "style": false,
-              "isSymetricalForOpponents": false,
               "content": [
-                { "section": "Dist", "style": { "width": "25%" } },
-                { "section": "Ligne dist", "style": { "width": "70%" } }
+                { "section": "Deck DIST", "style": { "width": "25%" } },
+                { "section": "Ligne dist", "style": { "width": "50%" } },
+                { "section": "Deck CAC", "style": { "width": "25%" } }
               ]
             },
             {
               "direction": "row",
-              "isSymetricalForOpponents": false,
               "content": [
-                { "section": "Mana", "style": false },
-                { "section": "Mage", "style": false }
+                { "section": "Sorts" },
+                { "section": "Mana" },
+                { "section": "Mage" }
               ]
             }
           ]
@@ -104,50 +97,53 @@
           "Sort": "Discard"
         },
         "sectionsDict": {
+          "Deck CAC": {
+            "title": "Deck CAC",
+            "isDeck": true,
+            "alignment": "DECK",
+            "quickActions": [
+              {
+                "action": "draw",
+                "count": 1,
+                "to": "Hand",
+                "label": "Piocher CAC"
+              }
+            ]
+          },
+          "Deck DIST": {
+            "title": "Deck DIST",
+            "isDeck": true,
+            "alignment": "DECK",
+            "quickActions": [
+              {
+                "action": "draw",
+                "count": 1,
+                "to": "Hand",
+                "label": "Piocher DIST"
+              }
+            ]
+          },
+          "Sorts": {
+            "title": "Zone des Sorts (à répartir)",
+            "alignment": "CENTER",
+            "height": "SMALL"
+          },
           "Mage": {
             "title": "Mage",
-            "isHidden": "no",
-            "height": "9",
-            "alignment": "CENTER",
-            "isHorizontalAllowed": true,
-            "noQuickActions": true
-          },
-          "Dist": {
-            "title": "Dist",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Deck dist",
-            "noQuickActions": false,
-            "isGroupForbidden": false,
-            "isDeck": true
+            "height": "MEDIUM",
+            "alignment": "CENTER"
           },
           "Ligne dist": {
-            "title": "Ligne dist",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "displayedTitle": "Ligne dist",
-            "showHiddenCardInHistory": true
+            "title": "Ligne distance",
+            "alignment": "CENTER"
           },
           "Ligne càc": {
-            "title": "Ligne càc",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "displayedTitle": "Ligne càc",
-            "showHiddenCardInHistory": true
+            "title": "Ligne corps à corps",
+            "alignment": "CENTER"
           },
           "Mana": {
             "title": "Mana",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "noAutoPayTo": true,
-            "displayedTitle": "Graines"
+            "alignment": "START"
           }
         }
       }
