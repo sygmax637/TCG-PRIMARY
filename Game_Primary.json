@@ -56,7 +56,17 @@
         "createCardId": "000",
         "count": 1,
         "destination": "Mana"
-      }
+      },
+      {
+      "action": "moveAllCustom",
+      "source": "Deck",
+      "destination": "Deck_dist",
+      "filter": {
+        "category": "Créature dist"
+      },
+      "faceDown": true,
+      "shuffle": true
+            }
   ]
 },
       "defaultNotes": "",
