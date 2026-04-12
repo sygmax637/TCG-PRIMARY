@@ -76,7 +76,7 @@
           "Ligne dist",
           "Mana",      
           "Mage",
-          "Créature dist"
+          "creature_dist"
           ],
         "layout": {
           "direction": "column",
