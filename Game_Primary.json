@@ -148,16 +148,10 @@
           "Extra_deck" : {
                         "title": "Extra_deck",
                         "isHidden": "yes",
-                        "height": "SMALL",
+                        "height": "MEDIUM",
                         "alignment": "DECK",
-                        "opponentAlignment": false,
-                        "noAutoPayTo": true,
-                        "isHorizontalAllowed": false,
-                        "displayedTitle": "Deck_dist",
-                        "noQuickActions": false,
-                        "isGroupForbidden": false,
-                        "isDeck": true
-          },          
+                        "displayedTitle": "Deck_dist"
+                          },          
           "Ligne dist": {
             "title": "Ligne dist",
             "isHidden": "no",
