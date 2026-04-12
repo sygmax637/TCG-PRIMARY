@@ -35,7 +35,7 @@
                 "categories": [
                     {
                         "category": "Mage",
-                        "maxPerCard": 1
+                        "maxPerCard": 3
                     },
                     {
                         "category": "Créature dist",
@@ -43,7 +43,7 @@
                     },
                     {
                         "category": "Sort",
-                        "maxPerCard": 1
+                        "maxPerCard": 3
                     },
                     {
                         "category": "Créature càc",
