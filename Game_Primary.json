@@ -23,6 +23,9 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
+         "customCategories": [
+          "Extra-deck"
+        ]
         "deckRuleset": "Standard"
        }
     ],
@@ -96,7 +99,7 @@
           "Ligne dist",
           "Mana",      
           "Mage",
-          "Dist"
+          "Extra-deck"
           ],
         "layout": {
           "direction": "column",
@@ -140,7 +143,8 @@
          ]
         },       
         "categoriesAlreadyOnBoard": [
-          "Mage"        
+          "Mage",
+          "Extra-deck->Deck_dist"
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
@@ -160,14 +164,14 @@
                       "noQuickActions": true
                   },
           "Dist" : {
-                        "title": "Dist",
-                        "isHidden": "no",
+                        "title": "Extra-deck",
+                        "isHidden": "yes",
                         "height": "SMALL",
                         "alignment": "DECK",
                         "opponentAlignment": false,
                         "noAutoPayTo": true,
                         "isHorizontalAllowed": false,
-                        "displayedTitle": "Deck dist",
+                        "displayedTitle": "Deck_dist",
                         "noQuickActions": false,
                         "isGroupForbidden": false,
                         "isDeck": true
