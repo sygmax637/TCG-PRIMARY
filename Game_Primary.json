@@ -1,8 +1,14 @@
 {
   "name": "Primary",
-  "menuBackgroundImage": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://sygmax637.github.io/TCG-PRIMARY/Illu%20Tapis%20IA.jpg"
+    ],
+    "decksUrl": ""
+  },
   "cards": {
-    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json"
+    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json",
+    "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg"
   },
   "deckBuilding": {
     "mainFilters": ["Type", "Name", "Cost"],
@@ -23,6 +29,10 @@
     }
   },
   "gameplay": {
-    "Classic": {}
+    "Classic": {
+      "mulligan": {
+        "startingHandSize": 5
+      }
+    }
   }
 }
