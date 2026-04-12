@@ -5,7 +5,7 @@
     "backgrounds": [
       "https://sygmax637.github.io/TCG-PRIMARY/Illu%20Tapis%20IA.jpg"
     ],
-    "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/PrimaryStarterDecks.json"
+    "decksUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json"
   },
   "customHelp": "Au début de la partie : répartissez vos sorts entre Deck CAC et Deck DIST, puis mélangez. À chaque tour, choisissez un deck et piochez 1 carte.",
   "cardRotation": 45,
