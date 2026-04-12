@@ -14,7 +14,7 @@
     "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg"
   },
   "deckBuilding": {
-    "mainFilters": ["Type", "Name", "Cost"],
+    "mainFilters": ["Category", "Name", "Cost"],
     "formats": [
       {
         "title": "Classic",
