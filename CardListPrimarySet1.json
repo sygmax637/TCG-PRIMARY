@@ -1029,6 +1029,7 @@
     "face": {
       "front": {
         "name": "Sagrouda la douée",
+        "category": "creature_dist",
         "type": "creature_dist",
         "cost": "3",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/045.jpg",
