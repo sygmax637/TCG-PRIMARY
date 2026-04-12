@@ -23,9 +23,6 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-         "customCategories": [
-          "Deck_dist"
-        ],
         "deckRuleset": "Standard"
        }
     ],
