@@ -24,7 +24,7 @@
         "title": "Classic",
         "gameplay": "Classic",
          "customCategories": [
-          "Extra-deck"
+          "Deck_dist"
         ],
         "deckRuleset": "Standard"
        }
@@ -78,7 +78,7 @@
       {
       "action": "moveAllCustom",
       "source": "Deck",
-      "destination": "Extra-deck",
+      "destination": "Deck_dist",
       "filter": {
         "category": "Créature dist"
       },
@@ -99,7 +99,7 @@
           "Ligne dist",
           "Mana",      
           "Mage",
-          "Extra-deck"
+          "Extra_deck"
           ],
         "layout": {
           "direction": "column",
@@ -114,7 +114,7 @@
                             "style": false,
                             "content": [
                                 {
-                                    "section": "Dist",
+                                    "section": "Extra_deck",
                                   "style": { "width": "20%" }
                                 },
                                 {
@@ -144,7 +144,7 @@
         },       
         "categoriesAlreadyOnBoard": [
           "Mage",
-          "Extra-deck->Deck_dist"
+          "Deck_dist->Extra_deck"
         ],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
@@ -164,7 +164,7 @@
                       "noQuickActions": true
                   },
           "Dist" : {
-                        "title": "Extra-deck",
+                        "title": "Extra_deck",
                         "isHidden": "yes",
                         "height": "SMALL",
                         "alignment": "DECK",
