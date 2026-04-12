@@ -25,7 +25,7 @@
         "gameplay": "Classic",            
         "deckRuleset": "Standard"
        }
-    ]
+    ],
  "deckRulesets": {
             "Standard": {
                     "general": {
