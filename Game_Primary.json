@@ -78,7 +78,7 @@
       {
       "action": "moveAllCustom",
       "source": "Deck",
-      "destination": "Dist",
+      "destination": "Extra-deck",
       "filter": {
         "category": "Créature dist"
       },
