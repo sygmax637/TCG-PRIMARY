@@ -143,9 +143,19 @@
           "Créature dist" : {
                         "title": "Créature dist",
                         "isHidden": "yes",
-                        "height": "MEDIUM",
+                        "height": "SMALL",
                         "alignment": "DECK",
-                        "displayedTitle": "Deck_dist"
+                        "drawPerTurn": 2,
+                        "opponentAlignment": false,
+                        "noAutoPayTo": true,
+                        "isHorizontalAllowed": false,
+                        "displayedTitle": "Créature dist",
+                        "noQuickActions": false,
+                        "enterTapped": false,
+                        "enterSpun": false,
+                        "isGroupForbidden": false,
+                        "keepTappedNewTurn": false,
+                        "showHiddenCardInHistory": false,
                           },          
           "Ligne dist": {
             "title": "Ligne dist",
