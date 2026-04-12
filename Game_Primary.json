@@ -1,17 +1,13 @@
 {
-  "name": "Primary",
+  "name": "Test",
   "defaultRessources": {
-    "backgrounds": [
-      "https://sygmax637.github.io/TCG-PRIMARY/Illu%20Tapis%20IA.jpg"
-    ],
+    "backgrounds": [],
     "decksUrl": ""
   },
   "cards": {
-    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json",
-    "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg"
+    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json"
   },
   "deckBuilding": {
-    "mainFilters": ["Type", "Name", "Cost"],
     "formats": [
       {
         "title": "Classic",
@@ -22,17 +18,12 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 40,
-          "maxPerCard": 3
+          "min": 40
         }
       }
     }
   },
   "gameplay": {
-    "Classic": {
-      "mulligan": {
-        "startingHandSize": 5
-      }
-    }
+    "Classic": {}
   }
 }
