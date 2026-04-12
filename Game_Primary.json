@@ -1,20 +1,11 @@
 {
   "name": "Primary",
   "menuBackgroundImage": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg",
-  "defaultRessources": {
-    "backgrounds": [
-      "https://sygmax637.github.io/TCG-PRIMARY/Illu%20Tapis%20IA.jpg"
-    ],
-    "decksUrl": ""
-  },
-  "customHelp": "Au début de la partie : répartissez vos sorts entre Deck CAC et Deck DIST, puis mélangez. À chaque tour, choisissez un deck et piochez 1 carte.",
-  "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json",
-    "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg"
+    "dataUrl": "https://cdn.jsdelivr.net/gh/TCG-Arena/TCG-Decks@main/cards.json"
   },
   "deckBuilding": {
-    "mainFilters": ["Category", "Name", "Cost"],
+    "mainFilters": ["Type", "Name", "Cost"],
     "formats": [
       {
         "title": "Classic",
@@ -25,106 +16,13 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 76,
+          "min": 40,
           "maxPerCard": 3
         }
       }
     }
   },
   "gameplay": {
-    "Classic": {
-      "mulligan": {
-        "startingHandSize": 7,
-        "drawNewSelectedCards": true
-      },
-      "newTurn": {
-        "drawOnStart": false
-      },
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "action": "moveByCategory",
-            "category": "Créature càc",
-            "destination": "Deck CAC"
-          },
-          {
-            "action": "moveByCategory",
-            "category": "Créature dist",
-            "destination": "Deck DIST"
-          },
-          {
-            "action": "moveByCategory",
-            "category": "Sort",
-            "destination": "Sorts"
-          }
-        ]
-      },
-      "sections": {
-        "customSections": [
-          "Ligne càc",
-          "Ligne dist",
-          "Deck CAC",
-          "Deck DIST",
-          "Sorts"
-        ],
-        "layout": {
-          "direction": "column",
-          "content": [
-            { "section": "Ligne càc" },
-            { "section": "Ligne dist" },
-            {
-              "direction": "row",
-              "content": [
-                { "section": "Deck CAC" },
-                { "section": "Sorts" },
-                { "section": "Deck DIST" }
-              ]
-            }
-          ]
-        },
-        "autoPlayFromHand": {
-          "Créature càc": "Ligne càc",
-          "Créature dist": "Ligne dist"
-        },
-        "sectionsDict": {
-          "Deck CAC": {
-            "title": "Deck CAC",
-            "isDeck": true,
-            "quickActions": [
-              {
-                "action": "draw",
-                "count": 1,
-                "to": "Hand",
-                "label": "Piocher CAC"
-              }
-            ]
-          },
-          "Deck DIST": {
-            "title": "Deck DIST",
-            "isDeck": true,
-            "quickActions": [
-              {
-                "action": "draw",
-                "count": 1,
-                "to": "Hand",
-                "label": "Piocher DIST"
-              }
-            ]
-          },
-          "Sorts": {
-            "title": "Sorts",
-            "alignment": "CENTER"
-          },
-          "Ligne càc": {
-            "title": "CAC",
-            "alignment": "CENTER"
-          },
-          "Ligne dist": {
-            "title": "DIST",
-            "alignment": "CENTER"
-          }
-        }
-      }
-    }
+    "Classic": {}
   }
 }
