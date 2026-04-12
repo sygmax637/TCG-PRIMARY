@@ -34,7 +34,15 @@
                     "general": {
                     "min": 76,
                     "maxPerCard": 3
-                }           
+                },
+               "categories": [
+                    {
+                        "category": "Créature dist",
+                        "min": 0,
+                        "max": 30,
+                        "maxPerCard": 3
+                    }
+               ]
             }
   }
   },
