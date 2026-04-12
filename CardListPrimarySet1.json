@@ -1029,7 +1029,6 @@
     "face": {
       "front": {
         "name": "Sagrouda la douée",
-        "category": "creature_dist",
         "type": "creature_dist",
         "cost": "3",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/045.jpg",
@@ -3423,22 +3422,5 @@
     "name": "Graine éphémère",
     "type": false,
     "cost": 0
-  },
-  "ttt": {
-    "id": "ttt",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "",
-        "isHorizontal": false
-      }
-    },
-    "name": "ttt",
-    "type": false,
-    "cost": 0,
-    "dist": ""
   }
 }
