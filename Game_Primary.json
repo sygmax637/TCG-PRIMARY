@@ -163,7 +163,7 @@
                       "isHorizontalAllowed": true,
                       "noQuickActions": true
                   },
-          "Dist" : {
+          "Extra_deck" : {
                         "title": "Extra_deck",
                         "isHidden": "yes",
                         "height": "SMALL",
