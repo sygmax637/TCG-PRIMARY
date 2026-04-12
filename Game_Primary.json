@@ -7,7 +7,7 @@
     ],
     "decksUrl": "https://sygmax637.github.io/TCG-PRIMARY/Primary%20Starter%20Deck.json"
   },
-  "customHelp": "Au début de la partie : répartissez vos sorts entre Deck CAC et Deck DIST, puis mélangez les deux decks. À chaque tour, choisissez un deck et piochez 1 carte.",
+  "customHelp": "Au début de la partie : répartissez vos sorts entre Deck CAC et Deck DIST, puis mélangez. À chaque tour, choisissez un deck et piochez 1 carte.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://sygmax637.github.io/TCG-PRIMARY/CardListPrimarySet1.json",
@@ -25,21 +25,20 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 76,
+          "min": 46,
           "maxPerCard": 3
         }
       }
-    },
+    }
+  },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Remplacez les cartes de votre choix puis repiochez jusqu'à 7.",
         "startingHandSize": 7,
         "drawNewSelectedCards": true
       },
       "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false
+        "drawOnStart": false
       },
       "beforeGameStart": {
         "initialBoardSetup": [
@@ -60,46 +59,37 @@
           }
         ]
       },
-      "countersStartingValues": [20, 0],
-      "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Ligne càc", "Ligne dist", "Mana", "Mage", "Deck CAC", "Deck DIST", "Sorts"],
+        "customSections": [
+          "Ligne càc",
+          "Ligne dist",
+          "Deck CAC",
+          "Deck DIST",
+          "Sorts"
+        ],
         "layout": {
           "direction": "column",
           "content": [
             { "section": "Ligne càc" },
+            { "section": "Ligne dist" },
             {
               "direction": "row",
               "content": [
-                { "section": "Deck DIST", "style": { "width": "25%" } },
-                { "section": "Ligne dist", "style": { "width": "50%" } },
-                { "section": "Deck CAC", "style": { "width": "25%" } }
-              ]
-            },
-            {
-              "direction": "row",
-              "content": [
+                { "section": "Deck CAC" },
                 { "section": "Sorts" },
-                { "section": "Mana" },
-                { "section": "Mage" }
+                { "section": "Deck DIST" }
               ]
             }
           ]
         },
-        "categoriesAlreadyOnBoard": ["Mage"],
         "autoPlayFromHand": {
           "Créature càc": "Ligne càc",
-          "Créature dist": "Ligne dist",
-          "Sort": "Ligne càc"
-        },
-        "autoPlayFromStack": {
-          "Sort": "Discard"
+          "Créature dist": "Ligne dist"
         },
         "sectionsDict": {
           "Deck CAC": {
             "title": "Deck CAC",
             "isDeck": true,
-            "alignment": "DECK",
             "quickActions": [
               {
                 "action": "draw",
@@ -112,7 +102,6 @@
           "Deck DIST": {
             "title": "Deck DIST",
             "isDeck": true,
-            "alignment": "DECK",
             "quickActions": [
               {
                 "action": "draw",
@@ -123,30 +112,19 @@
             ]
           },
           "Sorts": {
-            "title": "Zone des Sorts (à répartir)",
-            "alignment": "CENTER",
-            "height": "SMALL"
-          },
-          "Mage": {
-            "title": "Mage",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Ligne dist": {
-            "title": "Ligne distance",
+            "title": "Sorts",
             "alignment": "CENTER"
           },
           "Ligne càc": {
-            "title": "Ligne corps à corps",
+            "title": "CAC",
             "alignment": "CENTER"
           },
-          "Mana": {
-            "title": "Mana",
-            "alignment": "START"
+          "Ligne dist": {
+            "title": "DIST",
+            "alignment": "CENTER"
           }
         }
       }
-          }
     }
   }
 }
