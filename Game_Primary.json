@@ -167,7 +167,7 @@
                               "enterSpun": false,
                               "isGroupForbidden": false,
                               "keepTappedNewTurn": false,
-                              "showHiddenCardInHistory": false
+                              "showHiddenCardInHistory": false,
                               "cardActionShortcut": {
                               "action": "MOVE",
                               "actionData": {
