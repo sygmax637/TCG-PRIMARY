@@ -53,6 +53,13 @@
       },
       "newTurn": {
         "drawOnStart":false,
+        "onStartActions": [
+    {
+      "type": "CHOOSE_AND_DRAW",
+      "from": ["main", "secondary"],
+      "count": 1
+    }
+  ],
         "sharedTurn": false
               },
 "beforeGameStart": {
