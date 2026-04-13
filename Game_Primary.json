@@ -168,7 +168,14 @@
                               "isGroupForbidden": false,
                               "keepTappedNewTurn": false,
                               "showHiddenCardInHistory": false
-                              },
+                              "cardActionShortcut": {
+                              "action": "MOVE",
+                              "actionData": {
+                              "destination": "draw_choice",
+                              "position": "TOP"
+                                            }
+                                              }
+                          },
             "Mage": {
                       "title": "Mage",
                       "isHidden": "no",
