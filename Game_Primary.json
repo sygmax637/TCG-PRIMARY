@@ -56,7 +56,7 @@
         "onStartActions": [
     {
       "type": "CHOOSE_AND_DRAW",
-      "from": ["main", "secondary"],
+      "from": ["general", "creature_dist"],
       "count": 1
     }
   ],
