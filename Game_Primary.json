@@ -34,6 +34,12 @@
                     "maxPerCard": 3
                 },
                "categories": [
+                   {
+                        "category": "creature_cac",
+                        "min": 0,
+                        "max": 50,
+                        "maxPerCard": 3
+                    },
                     {
                         "category": "creature_dist",
                         "min": 0,
