@@ -82,7 +82,7 @@
         20,
         0
       ],
-      "hideFacedDownCards": false,
+      "hideFacedDownCards": true,
       "sections": {
         "customSections": [
           "Ligne càc",
