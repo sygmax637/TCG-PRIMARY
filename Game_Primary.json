@@ -12,8 +12,7 @@
   "cards": {
     "dataUrl": "https://sygmax637.github.io/TCG-PRIMARY/CardListPrimarySet1.json",
     "cardBack": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary.jpg",
-    "cardBackColor": "#C62828",
-      "creature_dist": {
+    "extraCardBacks": {
         "creature_dist": "https://sygmax637.github.io/TCG-PRIMARY/Dos%20Primary%20Dist.jpg"
       }
   },
