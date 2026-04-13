@@ -65,7 +65,8 @@
       },
       "newTurn": {
         "drawOnStart": false,
-         "sharedTurn": false
+        "drawPerTurn": 0,
+        "sharedTurn": false
               },
 "beforeGameStart": {
   "initialBoardSetup": 
