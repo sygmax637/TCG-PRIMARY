@@ -89,12 +89,19 @@
           "Ligne dist",
           "Mana",      
           "Mage",
-          "creature_dist"
+          "creature_dist",
+          "draw_choice"
           ],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
+              {
+              "section": "draw_choice",
+              "style": {
+              "height": "SMALL"
+                       }
+             },
              {
               "section": "Ligne càc",
               "style": false
@@ -145,6 +152,22 @@
           "Sort": "Discard"
         },
         "sectionsDict": {
+              "draw_choice": {
+                              "title": "Choix de pioche",
+                              "isHidden": "yes",
+                              "height": "SMALL",
+                              "alignment": "CENTER",
+                              "opponentAlignment": false,
+                              "noQuickActions": false,
+                              "isHorizontalAllowed": false,
+                              "displayedTitle": "Choix",
+                              "noAutoPayTo": true,
+                              "enterTapped": false,
+                              "enterSpun": false,
+                              "isGroupForbidden": false,
+                              "keepTappedNewTurn": false,
+                              "showHiddenCardInHistory": false
+                              },
             "Mage": {
                       "title": "Mage",
                       "isHidden": "no",
