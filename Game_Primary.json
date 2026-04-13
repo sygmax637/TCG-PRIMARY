@@ -65,14 +65,7 @@
       },
       "newTurn": {
         "drawOnStart":false,
-        "onStartActions": [
-    {
-      "type": "CHOOSE_AND_DRAW",
-      "from": ["general", "creature_dist"],
-      "count": 1
-    }
-  ],
-        "sharedTurn": false
+         "sharedTurn": false
               },
 "beforeGameStart": {
   "initialBoardSetup": 
