@@ -92,53 +92,49 @@
           "creature_dist",
           "draw_choice"
           ],
-        "layout": {
-          "direction": "column",
-          "isSymetricalForOpponents": false,
-          "content": [
-              {
-              "section": "draw_choice",
-              "style": {
-              "height": "SMALL"
-                       }
-             },
-             {
-              "section": "Ligne càc",
-              "style": false
-            },
-            {
-                            "direction": "row",
-                            "style": false,
-                            "content": [
-                                {
-                                    "section": "creature_dist",
-                                  "style": { "width": "20%" }
-                                },
-                                {
-                                    "section": "Ligne dist",
-                                    "style": {
-                                        "width": "75%"
-                                    }
-                                }
-                            ],
-                            "isSymetricalForOpponents": false                    
-                },           
-             {
-               "direction": "row",
-                          "isSymetricalForOpponents": false,
-                          "content": [
-            {
-                                  "section": "Mana",
-                                  "style": false
-            },
-             {
-                                  "section": "Mage",
-                                  "style": false
-             }
-             ]
+       "layout": {
+  "direction": "column",
+  "isSymetricalForOpponents": false,
+  "content": [
+    {
+      "section": "Ligne càc",
+      "style": false
+    },
+    {
+      "direction": "row",
+      "style": false,
+      "content": [
+        {
+          "section": "creature_dist",
+          "style": { "width": "20%" }
+        },
+        {
+          "section": "draw_choice",
+          "style": { "width": "20%" }
+        },
+        {
+          "section": "Ligne dist",
+          "style": { "width": "60%" }
         }
-         ]
-        },       
+      ],
+      "isSymetricalForOpponents": false
+    },
+    {
+      "direction": "row",
+      "isSymetricalForOpponents": false,
+      "content": [
+        {
+          "section": "Mana",
+          "style": false
+        },
+        {
+          "section": "Mage",
+          "style": false
+        }
+      ]
+    }
+  ]
+},       
         "categoriesAlreadyOnBoard": [
           "Mage",
           "creature_dist"
