@@ -86,6 +86,13 @@
         20,
         0
       ],
+      "draggableTokens": [
+              {
+                  "id": "Id1",
+                  "name": "Grainee éphémère",
+                  "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg"
+              }
+          ],
       "hideFacedDownCards": true,
       "sections": {
         "customSections": [
