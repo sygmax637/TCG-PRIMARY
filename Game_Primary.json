@@ -90,14 +90,24 @@
       "draggableTokens": [
               {
                   "id": "000",
-                  "name": "Grainee éphémère",
+                  "name": "Graine éphémère",
                   "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg"
               },
               {
                   "id": "Bouclier",
                   "name": "Jeton Bouclier",
-                  "image": "https://sygmax637.github.io/TCG-PRIMARY/jeton bouclier.png"
-              }
+                  "image": "https://sygmax637.github.io/TCG-PRIMARY/jeton bouclier ok.png"
+              },
+              {
+                  "id": "Poison",
+                  "name": "Jeton Poison",
+                  "image": "https://sygmax637.github.io/TCG-PRIMARY/jeton poison ok.png"
+              },
+              {
+                  "id": "+1 càc",
+                  "name": "Jeton +1 càc",
+                  "image": "https://sygmax637.github.io/TCG-PRIMARY/jeton +1 cac ok.png"
+              },
           ],
       "hideFacedDownCards": true,
       "sections": {
