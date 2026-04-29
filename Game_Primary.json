@@ -97,7 +97,7 @@
                   "id": "Bouclier",
                   "name": "Jeton Bouclier",
                   "image": "https://sygmax637.github.io/TCG-PRIMARY/jeton bouclier.png"
-              },
+              }
           ],
       "hideFacedDownCards": true,
       "sections": {
