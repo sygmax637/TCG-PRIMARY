@@ -1493,14 +1493,14 @@
     "face": {
       "front": {
         "name": "Immobiliser",
-        "type": "token",
+        "type": "creature_cac",
         "cost": "1",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/015.jpg",
         "isHorizontal": false
       }
     },
     "name": "Immobiliser",
-    "type": "token",
+    "type": "creature_cac",
     "cost": "1"
   },
   "194": {
@@ -1509,14 +1509,14 @@
     "face": {
       "front": {
         "name": "La Bataille fait rage",
-        "type": "token",
+        "type": "creature_cac",
         "cost": "2",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/016.jpg",
         "isHorizontal": false
       }
     },
     "name": "La Bataille fait rage",
-    "type": "token",
+    "type": "creature_cac",
     "cost": "2"
   },
   "195": {
@@ -1525,14 +1525,14 @@
     "face": {
       "front": {
         "name": "Planification",
-        "type": "token",
+        "type": "creature_dist",
         "cost": "2",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/017.jpg",
         "isHorizontal": false
       }
     },
     "name": "Planification",
-    "type": "token",
+    "type": "creature_dist",
     "cost": "2"
   },
   "196": {
@@ -1541,14 +1541,14 @@
     "face": {
       "front": {
         "name": "Carnage choisi",
-        "type": "token",
+        "type": "creature_dist",
         "cost": "3",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/018.jpg",
         "isHorizontal": false
       }
     },
     "name": "Carnage choisi",
-    "type": "token",
+    "type": "creature_dist",
     "cost": "3"
   },
   "197": {
@@ -1557,14 +1557,14 @@
     "face": {
       "front": {
         "name": "L'union fait la force",
-        "type": "token",
+        "type": "creature_dist",
         "cost": "2",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/019.jpg",
         "isHorizontal": false
       }
     },
     "name": "L'union fait la force",
-    "type": "token",
+    "type": "creature_dist",
     "cost": "2"
   },
   "198": {
@@ -1573,14 +1573,14 @@
     "face": {
       "front": {
         "name": "Trésor d'âmes",
-        "type": "token",
+        "type": "creature_dist",
         "cost": "2",
         "image": "https://sygmax637.github.io/TCG-PRIMARY/020.jpg",
         "isHorizontal": false
       }
     },
     "name": "Trésor d'âmes",
-    "type": "token",
+    "type": "creature_dist",
     "cost": "2"
   },
   "199": {
