@@ -84,15 +84,9 @@
 },
       "defaultNotes": "",
       "countersStartingValues": [
-        20,
-        0
+        20
       ],
       "draggableTokens": [
-              {
-                  "id": "000",
-                  "name": "Graine éphémère",
-                  "image": "https://sygmax637.github.io/TCG-PRIMARY/Graine%20ephemere.jpg"
-              },
               {
                   "id": "Bouclier",
                   "name": "Jeton Bouclier",
